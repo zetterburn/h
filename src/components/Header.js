@@ -31,7 +31,7 @@ function Header(){
                 </div>
                 
                 <ul className="mi-header-mennpmu">
-                    <li><NavLink exact to="/home"><span>Home</span></NavLink></li>
+                    <li><NavLink to="/home"><span>Home</span></NavLink></li>
                     <li><NavLink to="/about"><span>About</span></NavLink></li>
                     <li><NavLink to="/resume"><span>Resume</span></NavLink></li>
                     <li><NavLink to="/portfolio"><span>Portfolio</span></NavLink></li>
