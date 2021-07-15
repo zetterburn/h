@@ -20,10 +20,10 @@ const database = {
       dribbble: '',
       github: ''
     },
-    brandImage: '/images/brand-image.jpg',
-    aboutImage: '/images/about-image.jpg',
-    aboutImageLg: '/images/about-image-lg.jpg',
-    resumefile: '/files/resume.pdf'
+    brandImage: 'https://raw.githubusercontent.com/zetterburn/resume/master/public/images/brand-image.jpg',
+    aboutImage: 'https://raw.githubusercontent.com/zetterburn/resume/master/public/images/about-image.jpg',
+    aboutImageLg: 'https://raw.githubusercontent.com/zetterburn/resume/master/public/images/about-image-lg.jpg',
+    resumefile: 'https://raw.githubusercontent.com/zetterburn/resume/master/public/files/resume.pdf'
   },
   services: [
     {
@@ -225,9 +225,9 @@ const database = {
       id: 1,
       title: "test",
       subtitle: "subtitle",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://google.com'
+      imageUrl: "https://raw.githubusercontent.com/zetterburn/resume/master/public/images/portfolio-image-1.jpg",
+      largeImageUrl: ["https://raw.githubusercontent.com/zetterburn/resume/master/public/images/portfolio-image-1-lg.jpg"],
+      url: 'https://zetterburn.github.io/resume'
     }
   ],
 
@@ -277,8 +277,8 @@ const database = {
     {
       id: 1,
       title: 'test',
-      featuredImage: '/images/blog-image-10.jpg',
-      filesource: '../../blog/test.md',
+      featuredImage: 'https://raw.githubusercontent.com/zetterburn/resume/master/public/images/blog-image-10.jpg',
+      filesource: 'https://raw.githubusercontent.com/zetterburn/resume/master/src/blog/test.md',
       createDay: "1",
       createMonth: 'March',
       createYear: "2020"
